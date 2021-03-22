@@ -1,4 +1,4 @@
-import React ,{useState} from 'react';
+import React ,{useState,useEffect} from 'react';
 import './App.css';
 import insta_logo from './insta_logo.jpg';
 import basil from './basil.jpeg';
@@ -6,13 +6,19 @@ import basil from './basil.jpeg';
 import android from './android.jfif';
 
 import Post from './Post';
-
+import {db} from './Fireabase';
 
 function App() {
-  const [posts, setposts] = useState([{username :"basil" ,imageurl:'C:\Users\DELL\Documents\GitHub\React\instagram\src\basil.jpeg' ,caption:'Amazng Day it was'
+  const [posts, setposts] = useState([])
 
-  },{username :"basil" ,imageurl:{basil}, caption:'Amazng Day it was'
-}])
+useEffect(() =>{
+
+  db.collection('posts').onSnapshot(snapshot => {
+    setposts(snapshot.docs.map(doc =>doc.data()));
+
+})
+
+},[]);
   return (
     <div className="App">
      <div className="app__header">

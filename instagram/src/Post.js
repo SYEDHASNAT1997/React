@@ -11,12 +11,12 @@ function Post({username,imageurl,caption}){
         <div className="post__header">
         <Avatar className="post__Avatar"
         alt="hasnat"
-        variant="rounded"
+       
        />  
             <h3>{username}</h3>
             </div>
           <img className="post__image"
-           src={imageurl} alt="postimg"/>
+           src={imageurl} alt="post iamge"/>
             <h4 className="post__text"> <strong>{username}</strong> {caption}</h4>
         </div>
         </>

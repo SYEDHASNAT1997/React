@@ -1,0 +1,76 @@
+body{
+    background-color: #cccccc;
+ background-image: url(images\pexels-photo-531880.jpeg);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+
+}
+header{
+    padding: 10px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+    
+}
+nav a:active{
+color:grey;
+
+}
+nav a:hover{
+    color:grey;
+}
+
+body{
+    background-image: url("images\bk.jpg");
+    background-attachment: fixed;
+}
+
+h2 a{
+    color: #000;
+}
+h2 a:hover{
+    color: blue;
+}
+.shirt{
+   
+    border-radius: 10%;
+
+    box-shadow: 15px 12px 10px 10px grey;
+}
+.tshirt{
+    border-radius: 30px;
+ 
+}
+.tshirt:hover{
+    box-shadow: 15px 12px grey;
+   
+    opacity: 0.3;
+}
+.dotted{
+    border-style: dotted;
+    padding: 10px;
+ border-width: thin;
+ border: 2px solid blue;
+ border-radius: 2px;
+ 
+}
+.heightwidth{
+    height: 200px;
+  width: 50%;
+  background-color: powderblue;
+}
+table,th,tr{
+    border: 1px solid black;
+}
+.Footer{
+    bottom: 0;
+    background: #1abc9c;
+    align-items: center;
+    text-align: center;
+    
+}

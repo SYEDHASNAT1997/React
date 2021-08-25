@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+ width: 100%;
+ height:fit-content ;
+ background-color:white; 
+}
+body{
+    background-color:rgb(173, 173, 173);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+width: fit-content;
+padding-right: 0;
+padding-left: 0;
+padding-top: 0;
+padding-bottom: 0;
+flex-wrap: wrap;
+}
+.content {
+    position: fixed;
+    top: 0;
+    background:white;
+    color: black;
+    width: 100%;
+    padding: 10px;
+  }
+  a:hover{
+      color: rgba(0, 0, 0, 0.5);
+  }
+  a.content{
+      text-align: center;
+  }
+  h1.content{
+     
+      text-align: center;
+  }

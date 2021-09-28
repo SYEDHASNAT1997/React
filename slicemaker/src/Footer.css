@@ -1,0 +1,175 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 63px;
+    width: 60%;
+   
+
+}
+#example_3{
+    width:1170px;
+    height:358px;
+    clear:both;
+    margin-top:27px;
+    text-align:left;
+    bottom:0;
+}
+#example_24{
+    width:368px;
+    height:353px;
+    margin-left:2px;
+    margin-top:3px;
+    float:left;
+    display:inline;
+    background-color:#35bc7a;
+    text-align:left;
+}
+#example_27{
+    width:79px;
+    height:65px;
+    clear:both;
+    margin-left:27px;
+    margin-top:25px;
+    display:inline-block;
+    text-align:left;
+}
+#example_30{
+    width:267px;
+    height:34px;
+    clear:both;
+    margin-left:29px;
+    margin-top:32px;
+    display:inline-block;
+    text-align:left;
+     color:#f7f7f7;
+     font-size:24px;
+     font-family:'Trebuchet MS', Arial, Helvetica;
+}
+
+#example_33{
+    width:304px;
+    height:97px;
+    clear:both;
+    margin-left:29px;
+    margin-top:5px;
+    display:inline-block;
+    text-align:left;
+     color:#f7f7f7;
+     font-family:Arial, 'Times New Roman',Times, serif;
+}
+
+#example_36{
+    width:50px;
+    height:49px;
+    clear:both;
+    margin-left:290px;
+    margin-top:19px;
+    display:inline-block;
+    text-align:left;
+}
+#example_25{
+    width:368px;
+    height:353px;
+    margin-left:31px;
+    margin-top:3px;
+    float:left;
+    display:inline;
+    background-color:#f86924;
+    text-align:left;
+}
+#example_28{
+    width:83px;
+    height:81px;
+    clear:both;
+    margin-left:28px;
+    margin-top:20px;
+    display:inline-block;
+    text-align:left;
+}
+#example_31{
+    width:243px;
+    height:39px;
+    clear:both;
+    margin-left:31px;
+    margin-top:21px;
+    display:inline-block;
+    text-align:left;
+     color:#f7f7f7;
+     font-size:24px;
+     font-family:'Trebuchet MS', Arial, Helvetica;
+}
+#example_34{
+    width:306px;
+    height:97px;
+    clear:both;
+    margin-left:31px;
+    margin-top:0px;
+    display:inline-block;
+    text-align:left;
+    color:#f7f7f7;
+    font-family:Arial, 'Times New Roman',Times, serif;
+}
+#example_37{
+    width:48px;
+    height:49px;
+    clear:both;
+    margin-left:292px;
+    margin-top:19px;
+    display:inline-block;
+    text-align:left;
+}
+
+#example_26{
+    width:370px;
+    height:353px;
+    margin-left:31px;
+    margin-top:3px;
+    float:left;
+    display:inline;
+    background-color:#ff9f00;
+    text-align:left;
+}
+#example_29{
+    width:80px;
+    height:66px;
+    clear:both;
+    margin-left:28px;
+    margin-top:31px;
+    display:inline-block;
+    text-align:left;
+}
+#example_32{
+    width:258px;
+    height:34px;
+    clear:both;
+    margin-left:30px;
+    margin-top:27px;
+    display:inline-block;
+    text-align:left;
+     color:#f7f7f7;
+     font-size:24px;
+     font-family:'Trebuchet MS', Arial, Helvetica;
+}
+#example_35{
+    width:312px;
+    height:97px;
+    
+    clear:both;
+    margin-left:30px;
+    margin-top:3px;
+    display:inline-block;
+    text-align:left;
+     color:#f7f7f7;
+     font-family:Arial, 'Times New Roman',Times, serif;
+}
+#example_38{
+    width:50px;
+    height:49px;
+    clear:both;
+    margin-left:292px;
+    margin-top:19px;
+    display:inline-block;
+    text-align:left;
+}

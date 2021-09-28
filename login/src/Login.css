@@ -1,0 +1,16 @@
+.main_form{
+    background-color:lightslategrey;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 1%;
+
+}
+
+.form-group{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+button{
+    margin-left: 4%;
+}

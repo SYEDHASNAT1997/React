@@ -1,0 +1,29 @@
+.main{
+    box-sizing: border-box;
+    position: absolute;
+  width: 60%;
+  height: 80%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+  margin-right: 5%;
+    margin-left: 15%;
+    
+  background-color: ghostwhite;
+  color: white;
+  box-shadow :10px 10px 0 0  gray;
+  }
+  h1{
+  color: black;
+  }
+
+  .banner{
+    width:370px;
+    height:418px;
+    margin-left:0px;
+    margin-top:0px;
+    float:left;
+    display:inline;
+    background-repeat: repeat;
+    background-position:left;
+    text-align:left;
+    }
